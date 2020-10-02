@@ -108,6 +108,6 @@
 //   })
 
 // // eslint-disable-next-line import/prefer-default-export
-const firebaseDocUploader = () => {}
-const  firebaseUploader = () => {}
+const firebaseDocUploader = (xx, id, image, type) => {}
+const  firebaseUploader = (s, id, image, type) => {}
 export { firebaseDocUploader, firebaseUploader }
