@@ -111,7 +111,7 @@ class MyDocument extends Document {
             content="/icons/browserconfig.xml"
           />
 
-          <script
+          {/* <script
             dangerouslySetInnerHTML={{
               __html: `
                     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -121,7 +121,7 @@ class MyDocument extends Document {
                     })(window,document,'script','dataLayer','GTM-K6R2BPD');
                   `,
             }}
-          />
+          /> */}
 
           {/* <!-- Twitter --/> */}
           <meta property="twitter:card" content="summary_large_image" />
