@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://medtech.africa/</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/signup</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/contact</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/sign-up</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/register-as</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/register</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/about</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/login</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/partner</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/terms</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/policy</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/payment-policy</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://medtech.africa/donate</loc>
+  <lastmod>2020-07-29T19:01:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

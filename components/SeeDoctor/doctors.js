@@ -1,0 +1,105 @@
+import doc1 from "../../images/individualPlan.png"
+
+const doctors = [
+  {
+    name: "Zirkov Shabalala",
+    specialty: "Psychologist",
+    location: "London, England",
+    image: doc1,
+    star: 4,
+    qualification: "MBBS Psychology",
+    rating: "3.8",
+    reviews: "10 reviews",
+    id: 11223,
+    online: true,
+  },
+  {
+    name: "Arshavin Kurt",
+    specialty: "Dentist",
+    location: "Cape Town, South Africa",
+    image: doc1,
+    star: 2,
+    qualification: "MBBS Dental Sc",
+    rating: "3.8",
+    reviews: "10 reviews",
+    id: 1122333,
+    online: false,
+    patientReviews: [
+      [
+        "Caroline Forbes",
+        doc1,
+        "His ability to treat patients is according to the age and providing positive input is really a great trait",
+      ],
+      [
+        "Caroline Forbes",
+        doc1,
+        "His ability to treat patients is according to the age and providing positive input is really a great trait",
+      ],
+    ],
+  },
+  {
+    name: "Alaric Saltzman",
+    specialty: "Urology",
+    qualification: "MS - Obstetrics & Gynaecology, MBBS Gynaecology",
+    location: "New Jersey, USA",
+    image: doc1,
+    star: 4,
+    id: 112392,
+    online: true,
+    patientReviews: [
+      [
+        "Caroline Forbes",
+        doc1,
+        "His ability to treat patients is according to the age and providing positive input is really a great trait",
+      ],
+      [
+        "Caroline Forbes",
+        doc1,
+        "His ability to treat patients is according to the age and providing positive input is really a great trait",
+      ],
+    ],
+  },
+  {
+    name: "Wilson Jordon",
+    specialty: "Psychologist",
+    location: "Chicago, USA",
+    image: doc1,
+    star: 5,
+    id: 133823,
+    online: false,
+  },
+  {
+    name: "Ayanrinde David",
+    specialty: "Sex therapist",
+    location: "Lagos, Nigeria",
+    image: doc1,
+    star: 5,
+    qualification: "MBBS Sex therapist",
+    rating: "4.8",
+    reviews: "10 reviews",
+    id: 13823,
+    online: true,
+    patientReviews: [
+      [
+        "Caroline Forbes",
+        doc1,
+        "His ability to treat patients is according to the age and providing positive input is really a great trait",
+      ],
+      [
+        "Caroline Forbes",
+        doc1,
+        "His ability to treat patients is according to the age and providing positive input is really a great trait",
+      ],
+    ],
+  },
+  {
+    name: "Bimbe Eva",
+    specialty: "Optician",
+    location: "Lagos, Nigeria",
+    image: doc1,
+    star: 4,
+    id: 113320,
+    online: true,
+  },
+]
+export default doctors

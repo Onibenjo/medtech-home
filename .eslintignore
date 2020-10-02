@@ -1,0 +1,11 @@
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.css
+**/*.scss
+next.config.js
+use-auth.js
+functions/**
+functions/*
+functions/
+functions
