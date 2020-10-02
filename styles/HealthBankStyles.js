@@ -6,7 +6,7 @@ const styles = {
     width: 400,
   },
   input: {
-    marginLeft: theme.spacing(1),
+    marginLeft: 16,
     flex: 1,
   },
   iconButton: {

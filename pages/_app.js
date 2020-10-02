@@ -1,5 +1,5 @@
 import "../assets/scss/nextjs-material-kit.scss"
-
+import React from "react"
 import Head from "next/head"
 import { SnackbarProvider } from "notistack"
 import ThemeProvider from "utils/theme/ThemeProvider"

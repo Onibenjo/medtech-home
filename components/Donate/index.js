@@ -8,7 +8,6 @@ import { MdSearch } from "react-icons/md"
 import Typography from "@material-ui/core/Typography"
 import axios from "axios"
 import { makeStyles } from "@material-ui/core/styles"
-import { useCollection } from "hooks/useCollection"
 import styles from "../../styles/DonateStyle"
 import PatientsContainer from "./PatientsContainer"
 import GridContainer from "../Grid/GridContainer"
@@ -23,9 +22,10 @@ const Donate = () => {
   const [locationValue, setLocationValue] = useState("")
   const [applyFilteredLocation, setApplyFilteredLocation] = useState("")
   const [ailmentValue, setAilmentValue] = useState("")
-  const { data: patients } = useCollection("queue", {
-    where: ["status", "==", "unpaid"],
-  })
+  const patients = []
+  // const { data: patients } = useCollection("queue", {
+  //   where: ["status", "==", "unpaid"],
+  // })
   const [applyFilteredAilment, setApplyFilteredAilment] = useState("")
   const [homeIsFilter, setHomeIsFilter] = useState(false)
   const [filterValue, setFilterValue] = useState({

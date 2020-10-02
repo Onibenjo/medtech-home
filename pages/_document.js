@@ -12,7 +12,7 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#01dc6b" />
           <link rel="shortcut icon" href="/favicon.ico" />
-        
+
           <link
             rel="apple-touch-icon"
             sizes="76x76"
@@ -110,18 +110,18 @@ class MyDocument extends Document {
             name="msapplication-config"
             content="/icons/browserconfig.xml"
           />
-         
-              <script
-                dangerouslySetInnerHTML={{
-                  __html: `
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
                     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                     })(window,document,'script','dataLayer','GTM-K6R2BPD');
                   `,
-                }}
-              />
+            }}
+          />
 
           {/* <!-- Twitter --/> */}
           <meta property="twitter:card" content="summary_large_image" />
