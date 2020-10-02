@@ -2,8 +2,6 @@
 import React from "react"
 import Document, { Html, Head, Main, NextScript } from "next/document"
 import { ServerStyleSheets } from "@material-ui/styles"
-// import { GA_TRACKING_ID } from "../utils/lib/gtag"
-import isProd from "../utils/lib/isProd"
 
 class MyDocument extends Document {
   render() {
@@ -14,7 +12,7 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#01dc6b" />
           <link rel="shortcut icon" href="/favicon.ico" />
-          {/* <link rel="shortcut icon" href={require("../public/favicon.ico")} /> */}
+        
           <link
             rel="apple-touch-icon"
             sizes="76x76"
@@ -112,27 +110,7 @@ class MyDocument extends Document {
             name="msapplication-config"
             content="/icons/browserconfig.xml"
           />
-          {/* We only want to add the scripts if in production */}
-          {isProd && (
-            <>
-              {/* <!-- Google Tag Manager --> */}
-              {/* <script
-                async
-                src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-              /> */}
-              {/* <script
-                dangerouslySetInnerHTML={{
-                  __html: `
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-
-                    gtag('config', '${GA_TRACKING_ID}', {
-                      page_path: window.location.pathname,
-                    });
-                  `,
-                }}
-              /> */}
+         
               <script
                 dangerouslySetInnerHTML={{
                   __html: `
@@ -144,10 +122,6 @@ class MyDocument extends Document {
                   `,
                 }}
               />
-
-              {/* <!-- End Google Tag Manager --> */}
-            </>
-          )}
 
           {/* <!-- Twitter --/> */}
           <meta property="twitter:card" content="summary_large_image" />
