@@ -18,7 +18,6 @@
     "@material-ui/lab": "^4.0.0-alpha.56",
     "classnames": "^2.2.6",
     "date-fns": "^2.15.0",
-    "firebase": "^7.22.0",
     "firebase-admin": "^8.10.0",
     "framer-motion": "^2.5.5",
     "image-trace-loader": "^1.0.2",
