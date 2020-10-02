@@ -17,7 +17,7 @@ import countryToFlag from "constants/countryToFlag"
 import findStateByCountry from "constants/findStateByCountry"
 import LinearProgressWithLabel from "components/Progressbar/LinearProgressWithLabel"
 import { firebaseDocUploader } from "hooks/useFileUploader"
-import { fetchApi } from "utils/lib/fetch"
+import fetchApi from "utils/lib/fetchApi"
 
 import DateFnsUtils from "@date-io/date-fns"
 import {

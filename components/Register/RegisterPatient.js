@@ -17,7 +17,7 @@ import {
 import { FaUserCheck, FaUser } from "react-icons/fa"
 import styles from "styles/RegisterStyle"
 import Loader from "components/Loader/index2"
-import { fetchApi } from "utils/lib/fetch"
+import fetchApi from "utils/lib/fetchApi"
 import { useSnackbar } from "notistack"
 import CardBody from "components/Card/CardBody"
 import Typography from "@material-ui/core/Typography"
