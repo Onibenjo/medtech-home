@@ -47,12 +47,13 @@ const useStyles = makeStyles(() => ({
   },
 }))
 
-interface TermsProp {
-  open: boolean
-  onClose: () => void
-}
+// interface TermsProp {
+//   open: boolean
+//   onClose: () => void
+// }
 
-const Terms = dynamic<TermsProp>(() => import("components/Terms/Terms"), {
+// const Terms = dynamic<TermsProp>(() => import("components/Terms/Terms"), {
+const Terms = dynamic(() => import("components/Terms/Terms"), {
   ssr: false,
 })
 
