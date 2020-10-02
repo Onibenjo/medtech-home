@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 
 import Button from "@material-ui/core/Button"
 import { FiFilter } from "react-icons/fi"
@@ -6,8 +6,8 @@ import GridItem from "components/Grid/GridItem"
 import InputAdornment from "@material-ui/core/InputAdornment"
 import { MdSearch } from "react-icons/md"
 import Typography from "@material-ui/core/Typography"
-import axios from "axios"
 import { makeStyles } from "@material-ui/core/styles"
+import useFetch from "hooks/useFetch/useFetch"
 import styles from "../../styles/DonateStyle"
 import PatientsContainer from "./PatientsContainer"
 import GridContainer from "../Grid/GridContainer"
@@ -34,18 +34,9 @@ const Donate = () => {
     ailment: false,
     location: false,
   })
-  const [rate, setRate] = useState(0)
-  useEffect(() => {
-    const fetchRate = () => {
-      axios
-        .get(
-          "https://free.currconv.com/api/v7/convert?q=USD_NGN&compact=ultra&apiKey=6376c468c873cade6202"
-        )
-        .then(({ data }) => setRate(data.USD_NGN))
-        .catch((_e) => console.log(_e))
-    }
-    fetchRate()
-  }, [])
+  const [rate] = useFetch(
+    "https://free.currconv.com/api/v7/convert?q=USD_NGN&compact=ultra&apiKey=6376c468c873cade6202"
+  )
 
   const handleFilter = () => {
     setApplyFilteredLocation(locationValue)
@@ -160,7 +151,7 @@ const Donate = () => {
           <PatientsContainer
             // confirming={confirming}
             // handlePayment={handlePayment}
-            rate={Math.round(rate)}
+            rate={Math.round(rate.USD_NGN)}
             rows={rows}
             searchValue={searchValue}
             applyFilteredLocation={applyFilteredLocation}
