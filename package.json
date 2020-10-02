@@ -11,7 +11,7 @@
     "eslint": "eslint ./components/** ./pages/** --quiet --fix --ext js",
     "autoFix": "eslint --fix components/",
     "lint": "tsc --noEmit && eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix",
-    "format": "prettier --write \"{,!(node_modules)/**/}*.{js}\""
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
