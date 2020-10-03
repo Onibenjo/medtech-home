@@ -4,7 +4,6 @@ import Grid from "@material-ui/core/Grid"
 // import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography"
 import { makeStyles } from "@material-ui/core/styles"
-import useHeight from "hooks/useHeight/useHeight"
 import Button from "../CustomButtons/Button"
 import styles from "../../styles/HeaderStyles"
 
@@ -12,9 +11,8 @@ const useStyles = makeStyles(styles)
 
 const Header = () => {
   const classes = useStyles()
-  const minHeight = useHeight()
   return (
-    <header className={classes.root} style={{ minHeight }}>
+    <header className={classes.root} style={{ minHeight: '80vh' }}>
       <Grid container className={classes.container} spacing={4}>
         <Grid item xs={12} sm={10} md={6} className={classes.item}>
           <img style={{ width: "100%" }} src="logo2.svg" alt="medical doctor" />
@@ -34,16 +32,17 @@ const Header = () => {
             affordable cost.
           </Typography> */}
           <div className={classes.btn}>
-            <Link href="/login">
+            {/* <Link href="/login"> */}
               <Button
                 color="primary"
                 round
                 className={classes.btn1}
                 component="a"
+                href="https://medtech.africa/login"
               >
                 Login
               </Button>
-            </Link>
+            {/* </Link> */}
             <Link href="/register-as">
               <Button color="secondary" round component="a">
                 Create free account

@@ -96,19 +96,20 @@ const Navbar = () => {
             </Link>
           </div>
           <div className={classes.menuItemLinks}>
-            <Link href={paths.login}>
+            {/* <Link href={paths.login}> */}
               <Button2
                 color="primary"
                 // className={classes.button}
                 component="a"
                 variant="contained"
                 size="sm"
+                href="https://medtech.africa/login"
               >
                 {/* <a className={classes.button}> */}
                 Login
                 {/* </a> */}
               </Button2>
-            </Link>
+            {/* </Link> */}
             <Link href="/register-as">
               <Button
                 color="secondary"
